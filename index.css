@@ -1,21 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&family=Montserrat&display=swap');
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&family=Montserrat&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&family=Montserrat&display=swap'); */
+
 p,ul,label, input, button{
     font-family: 'Comfortaa', cursive;
+    font-weight: bold;
+    font-size: 15px;
 }
 
 h1,h2{
     font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
 }
 
 h2{
     color: #ff4040;
 }
-
 html{
     background-image: linear-gradient(to right, #051937, #004d7a, #008793, #00bf72, #a8eb12);
 }
@@ -67,7 +72,7 @@ input{
     border-radius: 7px;
     border: none;
     cursor: pointer;
-    font-size: 16px;
+    font-size: 15px;
 }
 
 .data_in_boton input:active{
@@ -82,7 +87,7 @@ input{
     cursor: pointer;
     background: #00C9B7;
     color: #FFFFFF;
-    font-size: 14px;
+    font-size: 13px;
 }
 
 .btn_prestamos:active{
